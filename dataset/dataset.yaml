@@ -1,0 +1,24 @@
+# dataset.yaml
+path: ./dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 14
+names: ['monitor',
+ 'pbag',
+  'cellphone', 
+  'mask', 
+  'glove',
+  'cellphone', 
+  'mask', 
+  'gbottle', 
+  'glove',
+  'misc', 
+  'net', 
+  'pbag', 
+  'pbottle', 
+  'tire']
+
+
